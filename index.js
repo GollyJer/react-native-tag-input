@@ -402,7 +402,6 @@ class Tag extends React.PureComponent<TagProps> {
           this.props.tagTextStyle,
         ]}>
           {this.props.label}
-          &nbsp;&copy;
         </Text>
       </TouchableOpacity>
     );
